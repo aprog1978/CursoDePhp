@@ -25,8 +25,7 @@ and open the template in the editor.
         echo "<table border=1>"
         ."<tr>"
                 ."<th>"."indice"."</th>"
-        ."</tr>"
-                ;
+        ."</tr>";
         for ($i=0; $i<$tam; $i++){
             echo "<tr>"
             ."<td>"
