@@ -8,8 +8,12 @@
 
 echo "<table border=1>";
 echo "<tr>";
-$names = array("Google","Youtube");
-$links = array("http://www.google.com.br","http://www.youtube.com.br");
+$names = array(
+    "Google",
+    "Youtube");
+$links = array(
+    "http://www.google.com.br",
+    "http://www.youtube.com.br");
 for($i=0; $i<count($names);$i++){
     echo "<td><a href='$links[$i]' target='blank'>$names[$i]</a></td>";
 }
