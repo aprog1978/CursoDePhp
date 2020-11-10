@@ -10,9 +10,7 @@
  *
  * @author aprog1978
  */
-interface CarroGuerra {
+interface CarroPadrao {
     //put your code here
     
-    function atiraCanhao();
-    function atiraMetralhadora();
 }

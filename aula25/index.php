@@ -7,24 +7,28 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Aula 16 de PHP - Include</title>
+        <title>Aula 25 de PHP - Classes parte 6</title>
         <?php 
         error_reporting(E_ALL);
         ini_set('display_errors', TRUE);
         ini_set('display_startup_errors', TRUE);
         date_default_timezone_set('America/Sao_Paulo');
         ?>
-        
-        
     </head>
     <body>
         <?php
         // put your code here
+        include_once './Carro.php';
+        include_once './Transp.php';
         
-        include './menu.php';
+        $car=new Carro("Vermelho");
         
-        include './datehora.php';
+        $tra =new Transp("azul");
         
+        $car->cor();
+        echo "<hr/>";
+        $tra->cor();
+        echo "<hr/>";
         
         ?>
     </body>

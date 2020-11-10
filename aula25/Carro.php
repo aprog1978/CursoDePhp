@@ -13,19 +13,10 @@
  */
 include_once './CarroBase.php';
 
-class Carro extends CarroBase{
+class Carro extends CarroBase {
     //put your code here
-    
-    //function Carro($param) {} // metodo construtor
-    function __construct($pt,$vm,$po) {
-        $this->potencia=$pt;
-        $this->valMax=$vm;
-        $this->portas=$po;
-        $this->status();
-    }
-    
-    function teste() {
+    function Cor() {
+        echo "<br/>Cor: ".$this->getCor();
         
     }
-
 }

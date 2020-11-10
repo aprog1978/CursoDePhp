@@ -7,25 +7,16 @@
  */
 
 /**
- * Description of Carro
+ * Description of Transp
  *
  * @author aprog1978
  */
 include_once './CarroBase.php';
-
-class Carro extends CarroBase{
+class Transp extends CarroBase {
     //put your code here
     
-    //function Carro($param) {} // metodo construtor
-    function __construct($pt,$vm,$po) {
-        $this->potencia=$pt;
-        $this->valMax=$vm;
-        $this->portas=$po;
-        $this->status();
+    public function getCor() {
+        $this->parent::getCor();
     }
     
-    function teste() {
-        
-    }
-
 }
